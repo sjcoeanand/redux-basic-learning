@@ -1,0 +1,15 @@
+.card{
+    padding-top: 10px;
+}
+.cart-count{
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    background-color: brown;
+    color: #fff;
+    top: -5px;
+    right: -5px;
+}
