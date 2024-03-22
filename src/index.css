@@ -13,3 +13,10 @@
     right: 5px;
     top: 5px;
 }
+
+
+@media only screen and (max-width:767px) {
+    .cart-count{
+        left: 10px !important;
+    }
+}
