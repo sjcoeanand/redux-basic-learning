@@ -4,12 +4,12 @@
 .cart-count{
     position: absolute;
     text-align: center;
-    height: 20px;
-    width: 20px;
-    font-size: 0.8rem;
+    height: 18px;
+    width: 18px;
+    font-size: 0.7rem;
     border-radius: 50%;
     background-color: brown;
     color: #fff;
-    top: -5px;
-    right: -5px;
+    right: 5px;
+    top: 5px;
 }

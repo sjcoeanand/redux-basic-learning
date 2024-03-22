@@ -10,14 +10,11 @@ let Header = () =>{
         <Container>
             <Navbar.Brand href="#">Redux Basic Store</Navbar.Brand>
             <Nav>
-                <Nav.Link as={Link} to="/"> Products</Nav.Link>
-            </Nav>
-            <Navbar.Toggle />
-            <Navbar.Collapse className="cart-main justify-content-end">
+                <Nav.Link as={Link} to="/"> Products</Nav.Link>                
                 <Nav.Link as={Link} to="/cart" className="position-relative">                 
                 <Cart color="royalblue" size={26} />
                 <span className="cart-count">{cartCount}</span></Nav.Link>
-            </Navbar.Collapse>
+            </Nav>
         </Container>
     </Navbar>
     )
